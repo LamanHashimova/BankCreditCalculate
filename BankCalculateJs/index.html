@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="box">
+    <h1>Bank Credit Calculate</h1>
+    <input id="Amount" type="text" placeholder=" Total Amount">
+    <input id="Percent" type="text" placeholder="Percent">
+        <select id="Period">
+            <option value="3">3</option>
+            <option value="6">6</option>
+            <option value="12">12</option>
+            <option value="24">24</option>
+            <option value="36">36</option>
+        </select>
+    <button onclick="Calculate()" id="Calculate">Calculate</button>
+    <h1 id="TotalPrice">Total Price: </h1>
+    <h1 id="Payment">Payment: </h1>
+
+   </div>
+    <script src="/app.js"></script>
+</body>
+</html>
